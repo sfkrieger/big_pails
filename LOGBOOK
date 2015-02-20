@@ -19,3 +19,13 @@
 	 git checkout master
 	 git checkout -b static-pages
 718	 rails generate controller StaticPages home help rails generate controller StaticPages home help
+728	 ls
+729	 cat app/controllers/static_pages_controller.rb 
+730	 bundle exec rake test
+731	 bundle exec rake test
+732	 bundle exec rake test
+733	 vim Questions
+734	 open -a itunes
+735	 git status
+736	 git commit -am "Just comments, so many comments"
+737	 git push
