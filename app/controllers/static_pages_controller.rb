@@ -11,6 +11,6 @@ class StaticPagesController < ApplicationController
   end
   
 # TODO woa! didn't need this, i don't know why its working...
-#  def about
-#  end
+  def about
+  end
 end
