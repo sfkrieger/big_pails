@@ -1,0 +1,10 @@
+	 cd ..
+	 ls
+	 rails _4.2.0_ new sample_app
+	 cd sample_app/
+	 ls
+	 vim Gemfile
+	 bundle install
+	 bundle install --without_production
+	 bundle install --without production
+	 bundle update
