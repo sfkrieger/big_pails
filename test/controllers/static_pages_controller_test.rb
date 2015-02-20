@@ -10,5 +10,11 @@ class StaticPagesControllerTest < ActionController::TestCase
     get :help
     assert_response :success
   end
+  
+  #added woo
+  test "should get aboot" do
+    get :about
+    assert_response :success
+  end
 
 end

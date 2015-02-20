@@ -1,6 +1,11 @@
+# The Static Pages controller generation in Listing 3.4 automatically updates the routes file (config/routes.rb), which we saw briefly in Section 1.3.4. 
+# The routes file is responsible for implementing the router (seen in Figure 2.11) that defines the correspondence between URLs and web pages. 
+# The routes file is located in the config directory, where Rails collects files needed for the application configuration (Figure 3.1).
 Rails.application.routes.draw do
+  #maps requests for the URL /static_pages/home to the home action in the Static Pages controller. 
+  #Moreover, by using get we arrange for the route to respond to a GET request
   get 'static_pages/home'
-
+  get 'static_pages/about'
   get 'static_pages/help'
 
   # The priority is based upon order of creation: first created -> highest priority.
