@@ -8,3 +8,14 @@
 	 bundle install --without_production
 	 bundle install --without production
 	 bundle update
+	 git init
+	 git add .
+	 git commit -am "Initializing repo"
+	 git remote add origin git@github.com:sfkrieger/big_pails.git
+	 git push -u origin master
+	 git commit -am "Added... nothing"
+	 heroku create
+	 git push heroku master
+	 git checkout master
+	 git checkout -b static-pages
+718	 rails generate controller StaticPages home help rails generate controller StaticPages home help
